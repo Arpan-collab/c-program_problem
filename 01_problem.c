@@ -8,11 +8,11 @@ int main()
     printf("give the number\n");
     scanf("%d", &number);
 
-    for (int i = 1; i <= 10; i++)
+    for (int i = 0; i < 10; i++)
     {
-        int multiplication = (number * i);
-        
-        printf("%d x %d = %d\n", number, i, multiplication);
+        int multiplication = (number * (i + 1));
+
+        printf("%d x %d = %d\n", number, i + 1, multiplication);
     }
 
     return 0;
