@@ -10,10 +10,15 @@ int main()
 
     printf("enter the last natural number you want to sum\n");
     scanf("%d", &num);
-    for (int i = 0; i <= num; i++)
-    {
-        sum += i;
-    }
+    // in this for loop if i give a big number it will take many times bez it will run many times program can be hang. 
+    // it s linear system 
+    // for (int i = 0; i <= num; i++)
+    // {
+    //     sum += i;
+    // }
+
+    // shortcut way and very first than for loop program 
+    sum = (num * num + num) / 2;
     printf("last natural number your wanted to sum that is  %d", sum);
 
     return 0;
