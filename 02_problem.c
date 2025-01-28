@@ -18,7 +18,8 @@ int main()
     // }
 
     // shortcut way and very first than for loop program 
-    sum = (num * num + num) / 2;
+    
+    sum = (num * num + num) / 2; // sutro diye kora hoise akane
     printf("last natural number your wanted to sum that is  %d", sum);
 
     return 0;
